@@ -68,6 +68,7 @@ void dequeue(int tamanho)
     if (fila.start == fila.end)
     {
         fila.start = fila.end = -1; // Verifica se a fila está vazia.
+        printf("\nA fila está vazia\n");
         return;
     }
     else
